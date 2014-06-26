@@ -1,0 +1,233 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install dkms
+    4  cd /media/swc/VBOXADDITIONS_4.3.8_92456/
+    5  ls
+    6  sh autorun.sh 
+    7  ./VBoxLinuxAdditions.run 
+    8  sudo ./VBoxLinuxAdditions.run 
+    9  man wget
+   10  echo $PATH
+   11  type python
+   12  ls anaconda/
+   13  ls anaconda/bin
+   14  ~/anaconda/bin/ipython notebook
+   15  ~/anaconda/bin/ipython
+   16  gedit .bash_profile 
+   17  sudo gedit .bash_profile
+   18  echo $PATH
+   19  cat .bash_profile
+   20  echo $PATH
+   21  cat .bash_profile
+   22  echo $PATH
+   23  ls -a
+   24  cat .profile
+   25  source .bash_profile
+   26  echo $PATH
+   27  type python
+   28  echo $PATH
+   29  cat .bashrc
+   30  type python
+   31  echo $PATH
+   32  type R
+   33  R --version
+   34  apt-cache search puppet
+   35  sudo apt-get install puppet-common
+   36  puppet apply swc-vm.pp 
+   37  type wget
+   38  puppet apply swc-vm.pp 
+   39  type bash
+   40  puppet apply swc-vm.pp 
+   41  sudo puppet apply swc-vm.pp 
+   42  ls /usr/bin/bash
+   43  type bash
+   44  sudo puppet apply swc-vm.pp 
+   45  ls
+   46  type python
+   47  ls -a
+   48  cat .bash_profile 
+   49  cat .bashrc
+   50  sudo puppet apply swc-vm.pp 
+   51  cat .bash_profile
+   52  sudo puppet apply swc-vm.pp 
+   53  type echo
+   54  ls /bin/echo
+   55  sudo puppet apply swc-vm.pp 
+   56  tail .bashrc
+   57  sudo puppet apply swc-vm.pp 
+   58  tail .bashrc
+   59  sudo puppet apply swc-vm.pp 
+   60  tail .bashrc
+   61  sudo puppet apply swc-vm.pp 
+   62  tail .bashrc
+   63  sudo gedit .bashrc
+   64  type wget
+   65  sudo apt-get install gedit
+   66  type gedit
+   67  gedit swc-vm.pp
+   68  ehco $PATH
+   69  echo $PATH
+   70  ipython
+   71  git --version
+   72  lol
+   73  print lol
+   74  nano ~/.bash_profile
+   75  nano
+   76  nano ~/.bash_profile
+   77  source .bash_profile
+   78  https://github.com/DevasenaInupakutika/2014-06-25-Reading
+   79  git clone https://github.com/DevasenaInupakutika/2014-06-25-Reading
+   80  ls
+   81  pwd
+   82  whoami
+   83  cd 2014-06-25-Reading/
+   84  whoami
+   85  pwd
+   86  cd Shell
+   87  ls
+   88  cd filesystem
+   89  ls
+   90  cd users/vlad
+   91  ls
+   92  ls -F
+   93  ls -a
+   94  cd ..
+   95  pwd
+   96  cd vlad
+   97  ls
+   98  ls -al
+   99  cd data
+  100  ls
+  101  cd ..
+  102  pwd
+  103  cd ../josie/
+  104  pwd
+  105  ls -al
+  106  ls species-mars-rover/
+  107  ls species-mars-rover/2012-07-03/
+  108  cd ../vlad
+  109  mkdir thesis
+  110  cd thesis
+  111  ls
+  112  nano
+  113  nano draft.txt
+  114  cd ..
+  115  rm thesis/
+  116  rm thesis/draft.txt
+  117  ls thesis
+  118  rm thesis/
+  119  rmdir thesis
+  120  ls
+  121  mkdir thesis
+  122  cd thesis/
+  123  pwd
+  124  nano draft.txt
+  125  cd ..
+  126  rm -r thesis/
+  127  ls
+  128  mkdir thesis
+  129  cd thesis/
+  130  nano draft.txt
+  131  cp draft.txt quotes.txt
+  132  ls
+  133  mv draft.txt paper.txt
+  134  ls
+  135  mv quotes.txt ../quotes.txt
+  136  ls ../
+  137  ls
+  138  webster lol
+  139  webster help
+  140  pwd
+  141  cd ..
+  142  pwd
+  143  ls
+  144  cd ..
+  145  pwd
+  146  cd ..
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd molecules/
+  151  ls
+  152  wc *.pdb
+  153  wc -l *.pdb
+  154  wc -l *.pdb>lines
+  155  ls
+  156  nano lines
+  157  ls
+  158  cat lines
+  159  ls lines
+  160  sort lines
+  161  sort -n lines
+  162  sort
+  163  pwd
+  164  sort -n lines>sorted-lines
+  165  ls
+  166  cat sorted-lines
+  167  head -1 sorted lines
+  168  head -1 sorted-lines
+  169  sort lines |tail -1
+  170  pwd
+  171  cd ../filesystem/users/josie/
+  172  ls
+  173  cd species-mars-rover/2012-07-03/
+  174  ls
+  175  wc -l *.txt
+  176  wc -l *[AB].txt
+  177  wc -l *.txt|sort|head
+  178  wc -l *.txt|sort|head -5
+  179  la -Z.txt
+  180  ls *Z.txt
+  181  pwd
+  182  cd /home/swc/2014-06-25-Reading/shell
+  183  cd /home/swc/2014-06-25-Reading/Shell
+  184  cd filesystem/
+  185  ls
+  186  cd ../finding/
+  187  ls
+  188  nano haiku.txt
+  189  haiku
+  190  haiku.txt
+  191  cat haiku.txt 
+  192  grep "not"
+  193  grep not haiku.txt
+  194  grep not day haiku.txt 
+  195  grep -w day haiku.txt 
+  196  grep -n it haiku.txt 
+  197  grep -i -v the haiku.txt 
+  198  man grep
+  199  man sort
+  200  man grep
+  201  grep -E '^.o' haiku.txt 
+  202  cd ../filesystem/users/vlad
+  203  ls
+  204  find -type f -print
+  205  find -type d -print
+  206  find -maxdepth 1 -type f -print
+  207  find -maxdepth 2 -type f -print
+  208  find . -name '*.txt' -print
+  209  wc -l $find . -name '*.txt' -print
+  210  wc -l $(find . -name '*.txt' -print)
+  211  pwd
+  212  cd ../../../creatures
+  213  pwd
+  214  ls
+  215  for filename in *.dat; do  mv $filename original-$filemane; done
+  216  ls
+  217  cd ../filesystem//users/josie/
+  218  ls
+  219  cd species-mars-rover/2012-07-03/
+  220  ls
+  221  for filename in '[AB].txt'; do  echo filename;  bash goostats $filename stat-$filename; done
+  222  for filename in *[AB].txt; do  echo filename;  bash goostats $filename stat-$filename; done
+  223  ls
+  224  nano loop_goostat.sh
+  225  ls
+  226  schmod +rwx loop_goostat.sh 
+  227  chmod +rwx loop_goostat.sh 
+  228  ls
+  229  ./loop_goostat.sh 
+  230  nano loop_goostat.sh 
+  231  nano goostats 
+  232  history
+  233  history > today_history
